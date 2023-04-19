@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:url("Images/logo.jpeg");
+            background-repeat: no-repeat;
+        }
+        .divi{
+            background-image:url("Images/img5.jpeg");
+            background-size:cover;
+            border-radius:5%;
+            display:flex;align-items:center;justify-content:center;
+            flex-direction: column;
+            width:400px;
+            height:500px;
+            margin-left:900px;
+            margin-top:100px;
+        }
+        .input1{
+            width:150px;
+            height:20px;
+            border-radius:10%;
+            border:none;
+            border-bottom:2px solid black;
+            background-image:url("img5.jpg");
+            background-size: cover;
+        }
+        .btn {
+  background-color: #4CAF50; /* Set the background color */
+  border: none; /* Remove the border */
+  color: white; /* Set the text color */
+  padding: 10px 20px; /* Add some padding */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline on hover */
+  display: inline-block; /* Set the display to inline-block */
+  font-size: 16px; /* Set the font size */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.btn:hover {
+  background-color: #3e8e41; /* Change the background color on hover */
+}
+
+    </style>
+</head>
+<body>
+<div  class="divi">
+    
+    <label style="font-family:'Courier New', Courier, monospace;font-size:120%;font-weight:600"  for="email">Email</label>
+    <input   class="input1"type="mail" id="emailid" name="email">
+    <br>
+    <label style="font-family:'Courier New', Courier, monospace;font-size:120%;font-weight:600" for="Pass">Password</label>
+    <input  type="password" class="input1" id="pass" name="Pass">
+    <br>
+    <button id="login" class="btn">Login</button>
+</div>
+    <script src="login.js">
+
+    </script>
+</body>
+</html>
